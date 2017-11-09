@@ -1,0 +1,10 @@
+[Unit]
+Description=Wii Remote Light Fixer
+
+[Service]
+User=root
+Type=simple
+ExecStart=/home/pi/retropie_wiimote_lights/listen_for_wiimote.py
+
+[Install]
+WantedBy=multi-user.target
