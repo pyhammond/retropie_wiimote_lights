@@ -1,4 +1,5 @@
-# retropie_wiimote_lights
+Light up your Wii controllers with retropie_wiimote_lights
+==========================================================
 
 This group of scripts simply enables your RetroPie box to light up the lights correctly
 when you are using either Wii Controllers or Wii U Pro Controllers (I have 3 of these and
