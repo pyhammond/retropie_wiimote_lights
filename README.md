@@ -13,11 +13,11 @@ elsewhere
 
 Login to your Retropie box as the 'pi' user and simply run:
 
-	`(cd && git clone http://github.com/pyhammond/retropie_wiimote_lights)`
+	(cd && git clone http://github.com/pyhammond/retropie_wiimote_lights)
 
 Once your git clone is finished, simply run this command to install to retropie:
 
-	`(cd ~/retropie_wiimote_lights && ./install.sh)`
+	(cd ~/retropie_wiimote_lights && ./install.sh)
 
 Reboot to see it all work in action.  When the first Wii controller connects,
 there is only one light.  For the second, two lights, and so on...
