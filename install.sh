@@ -4,7 +4,7 @@ cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # First backup some old configs that we are going to replace
 cp /opt/retropie/configs/all/retroarch/autoconfig/Nintendo\ Wii\ Remote\ Pro\ Controller.cfg /opt/retropie/configs/all/retroarch/autoconfig/Nintendo\ Wii\ Remote\ Pro\ Controller.cfg.bak 2> /dev/null
-cp /opt/retropie/configs/daphne/dapinput.ini configs/dapinput.ini /opt/retropie/configs/daphne/dapinput.ini.bak 2> /dev/null
+cp /opt/retropie/configs/daphne/dapinput.ini /opt/retropie/configs/daphne/dapinput.ini.bak 2> /dev/null
 cp /opt/retropie/configs/n64/InputAutoCfg.ini /opt/retropie/configs/n64/InputAutoCfg.ini.bak 2> /dev/null
 cp /opt/retropie/configs/n64/mupen64plus.cfg /opt/retropie/configs/n64/mupen64plus.cfg.bak 2> /dev/null
 
