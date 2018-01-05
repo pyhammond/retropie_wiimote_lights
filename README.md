@@ -30,7 +30,7 @@ This is known to work well with RetroPie v4.2 and above.
 
 They should work well with either normal Wii Controllers or Wii U Pro Controllers.
 
-These are the Wii U Pro controllers I wrote them for: http://amzn.com/B00SN1QEGW
+These are the Wii U Pro controllers I wrote them for: https://ebay.com/itm/112568890143
 
 Two things you could tweak if needed:
 -------------------------------------
