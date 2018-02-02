@@ -2,6 +2,17 @@
 
 cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+# Ask if they have an internal or external Bluetooth Dongle
+echo "Are you using an External Bluetooth Dongle ?"
+echo "Saying 'Yes' will reverse the order of the controllers from normal"
+rm -f ./wii-lights.sh
+select yn in "Yes" "No"; do
+     case $yn in
+	Yes ) ln -s wii-lights-bt-external.sh wii-lights.sh; break;;
+	No  ) ln -s wii-lights-bt-internal.sh wii-lights.sh; break;;
+     esac
+done
+
 # First backup some old configs that we are going to replace
 cp /opt/retropie/configs/all/retroarch/autoconfig/Nintendo\ Wii\ Remote\ Pro\ Controller.cfg /opt/retropie/configs/all/retroarch/autoconfig/Nintendo\ Wii\ Remote\ Pro\ Controller.cfg.bak 2> /dev/null
 cp /opt/retropie/configs/daphne/dapinput.ini /opt/retropie/configs/daphne/dapinput.ini.bak 2> /dev/null
