@@ -23,22 +23,22 @@ The install script will ask you to choose from 4 options.  The definition of
 these options is as follows:
 
 1. *Internal Bluetooth Controller - multiple lights on*<br />
-	Choose this if you are using the **Internal** Rasp Pi 3 Bluetooth Dongle and you want:<br />
+	Choose this if you are using the **Internal** Rasp Pi 3 Bluetooth Controller and you want:<br />
 	2 lights to light up for the 2nd user,<br />
 	3 lights to light up for the 3rd user, etc.<br />
 
 2. *External Bluetooth Controller - multiple lights on*<br />
-	Choose this if you are using an **External** Bluetooth Controller and you want:<br />
+	Choose this if you are using an **External** Bluetooth Dongle and you want:<br />
 	2 lights to light up for the 2nd user,<br />
 	3 lights to light up for the 3rd user, etc.<br />
 
 3. *Internal Bluetooth Controller - single light*<br />
-	Choose this if you are using the **Internal** Rasp Pi 3 Bluetooth Dongle and you want:<br />
+	Choose this if you are using the **Internal** Rasp Pi 3 Bluetooth Controller and you want:<br />
 	the 2nd light (only the 2nd light alone) to light up for the 2nd user,<br />
 	the 3rd light (only the 3rd light alone) to light up for the 3rd user, etc.<br />
 
 4. *External Bluetooth Controller - single light*<br />
-	Choose this if you are using an **External** Bluetooth Controller and you want:<br />
+	Choose this if you are using an **External** Bluetooth Dongle and you want:<br />
 	the 2nd light (only the 2nd light alone) to light up for the 2nd user,<br />
 	the 3rd light (only the 3rd light alone) to light up for the 3rd user, etc.<br />
 
