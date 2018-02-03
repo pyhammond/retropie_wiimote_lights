@@ -19,8 +19,30 @@ Once your git clone is finished, simply run this command to install to retropie:
 
 	(cd ~/retropie_wiimote_lights && ./install.sh)
 
-Reboot to see it all work in action.  When the first Wii controller connects,
-there is only one light.  For the second, two lights, and so on...
+The install script will ask you to choose from 4 options.  The definition of
+these options is as follows:
+
+1. Internal Bluetooth Controller - multiple lights on
+	Choose this if you are using the **Internal** Rasp Pi 3 Bluetooth Dongle and you want:
+	2 lights to light up for the 2nd user,
+	3 lights to light up for the 3rd user, etc.
+
+2. External Bluetooth Controller - multiple lights on
+	Choose this if you are using an **External** Bluetooth Controller and you want:
+	2 lights to light up for the 2nd user,
+	3 lights to light up for the 3rd user, etc.
+
+3. Internal Bluetooth Controller - single light
+	Choose this if you are using the **Internal** Rasp Pi 3 Bluetooth Dongle and you want:
+	the 2nd light (only the 2nd light alone) to light up for the 2nd user,
+	the 3rd light (only the 3rd light alone) to light up for the 3rd user, etc.
+
+4. External Bluetooth Controller - single light
+	Choose this if you are using an **External** Bluetooth Controller and you want:
+	the 2nd light (only the 2nd light alone) to light up for the 2nd user,
+	the 3rd light (only the 3rd light alone) to light up for the 3rd user, etc.
+
+After you've made your choice and the install script is done, you can reboot to see this all work in action.
 
 ### Retropie Version
 
